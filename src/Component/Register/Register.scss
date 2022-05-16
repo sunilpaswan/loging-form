@@ -1,0 +1,17 @@
+$main-color: #c8cacc;
+
+.main-loging__right{
+    min-height: 100vh;
+    min-width: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.loging-contain__right{
+    height: 85vh;
+    width: 90%;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    border: 10rem;
+    box-shadow: 0.5rem 0.5rem 6rem 0.5rem $main-color;
+}

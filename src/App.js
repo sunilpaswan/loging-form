@@ -1,11 +1,25 @@
 import React from 'react'
-import Form from './Component/Form/Form'
+import './App.css'
+import Register from './Component/Register/Register'
 
 
-const App = () => {
+
+
+
+
+function App() {
   return (
-    <Form/>
-    
+    <div className='App'>
+      <header className='App-header'>
+      
+            <Register />
+            
+            
+
+          
+      </header>
+    </div>
+
   )
 }
 

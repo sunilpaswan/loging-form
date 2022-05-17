@@ -11,10 +11,8 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-      
-            <Register />
-            
-            
+      <Register />
+           
 
           
       </header>

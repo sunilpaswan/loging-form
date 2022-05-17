@@ -1,17 +1,115 @@
-$main-color: #c8cacc;
+$main-color: #eaebec;
 
-.main-loging__right{
+.main-loging{
     min-height: 100vh;
     min-width: 100vh;
     overflow-x: hidden;
     
 }
 
-.loging-contain__right{
-    height: 85vh;
+.loging-contain{
+    height: 100vh;
     width: 90%;
-    border-radius: 1rem;
-    margin: 2rem auto;
-    border: 10rem;
-    box-shadow: 0.5rem 0.5rem 6rem 0.5rem $main-color;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left__side{
+    margin: 1rem auto;
+    margin-right: 0;
+    background: #f7f8f8;
+    box-shadow: 0 1px 0 0.5rem $main-color;
+    height: 90%;
+    width: 100%;
+    .img{
+        width: 100%;
+        height: 350px;
+    }
+    
+   
+}
+
+.right__side{
+    margin: 1rem auto;
+    margin-left: 0;
+    height: 90%;
+    width: 100%;
+    box-shadow: 0 0 1px 0.5rem $main-color;
+    #main{
+       
+        text-align: left;
+        
+    }
+}
+
+.right__side{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+    input{
+        display: block;
+        height: 2rem;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding: 0.2rem 1rem;
+        transition: all 0.1s ease-in-out;
+        &:focus{
+            outline: none;
+            border: none;
+        }
+        &:hover{
+            box-shadow: 2px 2px 9px -1px gray;
+        }
+    }
+label{
+    display: block;
+    text-align: left;
+    margin: auto;
+    float: left;
+    width: 70%;
+    font-size: medium;
+    color: gray;
+}
+#sub__btn{
+    width: 40%;
+    bottom: 2rem;
+    display: flex;
+    color: white;
+    background: #389ef2;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem ;
+    text-align: center;
+    transition: all 0.2s ease;
+    &:hover{
+        box-shadow: 0.5rem 0.5rem 2px -1px gray;
+        transform: translateY(-5px);
+    }
+
+
+   
+
+}
+.check__box{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-bottom: 1rem;
+}
+#txt2{
+    color: gray;
+    float: left;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
 }
